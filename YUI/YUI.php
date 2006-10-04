@@ -179,7 +179,7 @@ class YUI
 		}
 
 		$this->html_head_entry_set =
-			$this->calculateHtmlHeadEntrySet($component_ids, $mode);
+			$this->buildHtmlHeadEntrySet($component_ids, $mode);
 	}
 
 	// }}}
@@ -368,9 +368,5 @@ class YUI
 
 	// }}}
 }
-
-$yui = new YUI('dom', YUI::MODE_MIN);
-$set = $yui->getHtmlHeadEntrySet();
-$set->display();
 
 ?>
