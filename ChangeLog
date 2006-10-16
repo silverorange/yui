@@ -1,0 +1,13 @@
+2006-10-04  gauthierm
+
+	* [r11808] yui/trunk/YUI/YUI.php:
+	  remove test code and fix misnamed method
+	* [r11807] yui/package.php, yui/trunk/package.php:
+	  move to trunk
+	* [r11806] yui/trunk/www, yui/www:
+	  move to trunk
+	* [r11805] yui/YUI, yui/trunk/YUI:
+	  Move to trunk.
+	* [r11804] yui/trunk:
+	  Fix import. I'll add this to the trac wiki.
+
