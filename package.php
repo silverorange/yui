@@ -2,7 +2,7 @@
 
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.0.0';
+$version = '1.0.1';
 $notes = <<<EOT
 see ChangeLog
 EOT;
@@ -32,7 +32,7 @@ $package->setSummary('Swat based PHP wrapper for YUI Library');
 $package->setDescription($description);
 $package->setChannel('pear.silverorange.com');
 $package->setPackageType('php');
-$package->setLicense('LGPL', 'http://www.gnu.org/copyleft/lesser.html');
+$package->setLicense('BSD', 'http://developer.yahoo.net/yui/license.txt');
 
 $package->setReleaseVersion($version);
 $package->setReleaseStability('stable');
@@ -47,7 +47,7 @@ $package->addMaintainer('lead', 'nrf', 'Nathan Fredrickson', 'nathan@silverorang
 
 $package->setPhpDep('5.1.5');
 $package->setPearinstallerDep('1.4.0');
-$package->addPackageDepWithChannel('required', 'Swat', 'pear.silverorange.com', '0.9.1');
+$package->addPackageDepWithChannel('required', 'Swat', 'pear.silverorange.com', '1.0.0');
 $package->generateContents();
 
 if (isset($_GET['make']) || (isset($_SERVER['argv']) && @$_SERVER['argv'][1] == 'make')) {
