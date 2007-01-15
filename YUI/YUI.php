@@ -66,7 +66,7 @@ class YUIComponent
 	}
 
 	// }}}
-	// {{{ public function addJavaScript()
+	// {{{ public function addStyleSheet()
 
 	public function addStyleSheet($mode, $filename = '')
 	{
@@ -282,6 +282,9 @@ class YUI
 		$components['menu']->addJavaScript(YUI::MODE_MIN);
 		$components['menu']->addJavaScript(YUI::MODE_NORMAL);
 		$components['menu']->addStyleSheet(YUI::MODE_NORMAL,
+			'packages/yui/menu/assets/menu.css');
+
+		$components['menu']->addStyleSheet(YUI::MODE_MIN,
 			'packages/yui/menu/assets/menu.css');
 
 		$components['reset'] = new YUIComponent('reset');
