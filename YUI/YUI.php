@@ -11,8 +11,9 @@ require_once 'Swat/SwatHtmlHeadEntry.php';
  * This class is used internally by the {@link YUI} class and is not meant to
  * be used by itself.
  *
- * @package   YUI
- * @copyright 2006 silverorange
+ * @package    YUI
+ * @copyright  2006 silverorange
+ * @depredated Use SwatYUI, part of the Swat package instead.
  */
 class YUIComponent
 {
@@ -123,8 +124,9 @@ class YUIComponent
  * $html_head_entries = $yui->getHtmlHeadEntrySet();
  * </code>
  *
- * @package   YUI
- * @copyright 2006 silverorange
+ * @package    YUI
+ * @copyright  2006 silverorange
+ * @depredated Use SwatYUI, part of the Swat package instead.
  */
 class YUI
 {
