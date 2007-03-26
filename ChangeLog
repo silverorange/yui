@@ -1,3 +1,90 @@
+2007-03-15  gauthierm
+
+	* [r15896] yui/trunk/www/tabview, yui/trunk/www/tabview/README,
+	  yui/trunk/www/tabview/assets,
+	  yui/trunk/www/tabview/assets/border_tabs.css,
+	  yui/trunk/www/tabview/assets/tabview.css,
+	  yui/trunk/www/tabview/tabview-debug.js,
+	  yui/trunk/www/tabview/tabview-min.js,
+	  yui/trunk/www/tabview/tabview.js:
+	  Add tabview widget to our YUI package.
+
+2007-02-11  gauthierm
+
+	* [r14912] yui/trunk/YUI/YUI.php:
+	  depretate YUI classes
+
+2007-01-22  gauthierm
+
+	* [r14424] yui/trunk/www/animation/README,
+	  yui/trunk/www/animation/animation-debug.js,
+	  yui/trunk/www/animation/animation-min.js,
+	  yui/trunk/www/animation/animation.js,
+	  yui/trunk/www/autocomplete/README,
+	  yui/trunk/www/autocomplete/autocomplete-debug.js,
+	  yui/trunk/www/autocomplete/autocomplete-min.js,
+	  yui/trunk/www/autocomplete/autocomplete.js,
+	  yui/trunk/www/calendar/README,
+	  yui/trunk/www/calendar/assets/calendar.css,
+	  yui/trunk/www/calendar/calendar-debug.js,
+	  yui/trunk/www/calendar/calendar-min.js,
+	  yui/trunk/www/calendar/calendar.js,
+	  yui/trunk/www/connection/README,
+	  yui/trunk/www/connection/connection-debug.js,
+	  yui/trunk/www/connection/connection-min.js,
+	  yui/trunk/www/connection/connection.js,
+	  yui/trunk/www/container/README,
+	  yui/trunk/www/container/assets/container.css,
+	  yui/trunk/www/container/container-debug.js,
+	  yui/trunk/www/container/container-min.js,
+	  yui/trunk/www/container/container.js,
+	  yui/trunk/www/container/container_core-debug.js,
+	  yui/trunk/www/container/container_core-min.js,
+	  yui/trunk/www/container/container_core.js,
+	  yui/trunk/www/dom/README, yui/trunk/www/dom/dom-debug.js,
+	  yui/trunk/www/dom/dom-min.js, yui/trunk/www/dom/dom.js,
+	  yui/trunk/www/dragdrop/README,
+	  yui/trunk/www/dragdrop/dragdrop-debug.js,
+	  yui/trunk/www/dragdrop/dragdrop-min.js,
+	  yui/trunk/www/dragdrop/dragdrop.js, yui/trunk/www/event/README,
+	  yui/trunk/www/event/event-debug.js,
+	  yui/trunk/www/event/event-min.js, yui/trunk/www/event/event.js,
+	  yui/trunk/www/fonts/README, yui/trunk/www/fonts/fonts-min.css,
+	  yui/trunk/www/fonts/fonts.css, yui/trunk/www/grids/README,
+	  yui/trunk/www/grids/grids-min.css,
+	  yui/trunk/www/grids/grids.css, yui/trunk/www/logger/README,
+	  yui/trunk/www/logger/assets/logger.css,
+	  yui/trunk/www/logger/logger-debug.js,
+	  yui/trunk/www/logger/logger-min.js,
+	  yui/trunk/www/logger/logger.js, yui/trunk/www/menu/README,
+	  yui/trunk/www/menu/assets/menu.css,
+	  yui/trunk/www/menu/menu-debug.js,
+	  yui/trunk/www/menu/menu-min.js, yui/trunk/www/menu/menu.js,
+	  yui/trunk/www/reset/README, yui/trunk/www/reset/reset-min.css,
+	  yui/trunk/www/reset/reset.css, yui/trunk/www/slider/README,
+	  yui/trunk/www/slider/slider-debug.js,
+	  yui/trunk/www/slider/slider-min.js,
+	  yui/trunk/www/slider/slider.js, yui/trunk/www/treeview/README,
+	  yui/trunk/www/treeview/assets/tree.css,
+	  yui/trunk/www/treeview/treeview-debug.js,
+	  yui/trunk/www/treeview/treeview-min.js,
+	  yui/trunk/www/treeview/treeview.js, yui/trunk/www/yahoo/README,
+	  yui/trunk/www/yahoo/yahoo-debug.js,
+	  yui/trunk/www/yahoo/yahoo-min.js, yui/trunk/www/yahoo/yahoo.js:
+	  Update to release 0.12.2 of YUI.
+
+2007-01-15  gauthierm
+
+	* [r14333] yui/trunk/YUI/YUI.php:
+	  Fix folding and include menu css for MODE_MIN in YUI.
+
+2006-10-16  nrf
+
+	* [r11970] yui/trunk/package.php:
+	  prepare for release of 1.0.1
+	* [r11969] yui/trunk/ChangeLog, yui/trunk/package.php:
+	  prepare for release of 1.0.0
+
 2006-10-04  gauthierm
 
 	* [r11808] yui/trunk/YUI/YUI.php:
