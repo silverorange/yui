@@ -13,7 +13,7 @@ require_once 'Swat/SwatHtmlHeadEntry.php';
  *
  * @package    YUI
  * @copyright  2006 silverorange
- * @depredated Use SwatYUI, part of the Swat package instead.
+ * @deprecated Use SwatYUI, part of the Swat package instead.
  */
 class YUIComponent
 {
@@ -126,7 +126,7 @@ class YUIComponent
  *
  * @package    YUI
  * @copyright  2006 silverorange
- * @depredated Use SwatYUI, part of the Swat package instead.
+ * @deprecated Use SwatYUI, part of the Swat package instead.
  */
 class YUI
 {
