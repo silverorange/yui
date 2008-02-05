@@ -583,7 +583,7 @@ YAHOO.util.Element.prototype = {
         var el = this.get('element');
         scope = scope || this;
         
-        el = this.get('id') || el;
+        el = el || this.get('id');
         var self = this; 
         if (!this._events[type]) { // create on the fly
             if ( this.DOM_EVENTS[type] ) {
