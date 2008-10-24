@@ -3,7 +3,7 @@
 ini_set('allow_call_time_pass_reference', true);
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.0.7';
+$version = '1.0.8';
 $notes = <<<EOT
 see ChangeLog
 EOT;
