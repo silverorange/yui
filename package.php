@@ -48,7 +48,6 @@ $package->addMaintainer('lead', 'nrf', 'Nathan Fredrickson', 'nathan@silverorang
 
 $package->setPhpDep('5.1.5');
 $package->setPearinstallerDep('1.4.0');
-$package->addPackageDepWithChannel('required', 'Swat', 'pear.silverorange.com', '1.0.0');
 $package->generateContents();
 
 if (isset($_GET['make']) || (isset($_SERVER['argv']) && @$_SERVER['argv'][1] == 'make')) {
