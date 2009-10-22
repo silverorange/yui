@@ -3,14 +3,13 @@
 ini_set('allow_call_time_pass_reference', true);
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.0.9';
+$version = '1.0.10';
 $notes = <<<EOT
-see ChangeLog
+YUI version 2.8.0r4.
 EOT;
 
 $description =<<<EOT
-This class provides a Swat based PHP wrapper for the
-Yahoo UI Library
+Packages YUI resources using the Swat resource naming conventions.
 EOT;
 
 $package = new PEAR_PackageFileManager2();
