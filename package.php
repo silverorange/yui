@@ -3,9 +3,9 @@
 ini_set('allow_call_time_pass_reference', true);
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.0.10';
+$version = '1.0.11';
 $notes = <<<EOT
-YUI version 2.8.0r4.
+YUI version 2.9.0
 EOT;
 
 $description =<<<EOT
