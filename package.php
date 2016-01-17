@@ -3,7 +3,7 @@
 ini_set('allow_call_time_pass_reference', true);
 require_once 'PEAR/PackageFileManager2.php';
 
-$version = '1.0.11';
+$version = '1.0.12';
 $notes = <<<EOT
 YUI version 2.9.0
 EOT;
@@ -17,7 +17,7 @@ PEAR::setErrorHandling(PEAR_ERROR_DIE);
 
 $result = $package->setOptions(
 	array(
-		'filelistgenerator' => 'svn',
+		'filelistgenerator' => 'file',
 		'simpleoutput'      => true,
 		'baseinstalldir'    => '/',
 		'packagedirectory'  => './',

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.9.5" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>YUI</name>
+ <channel>pear.silverorange.com</channel>
+ <summary>Swat based PHP wrapper for YUI Library</summary>
+ <description>Packages YUI resources using the Swat resource naming conventions.</description>
+ <lead>
+  <name>Mike Gauthier</name>
+  <user>gauthierm</user>
+  <email>mike@silverorange.com</email>
+  <active>yes</active>
+ </lead>
+ <lead>
+  <name>Nathan Fredrickson</name>
+  <user>nrf</user>
+  <email>nathan@silverorange.com</email>
+  <active>yes</active>
+ </lead>
+ <date>2016-01-17</date>
+ <time>12:14:00</time>
+ <version>
+  <release>1.0.12</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>stable</release>
+  <api>stable</api>
+ </stability>
+ <license uri="http://developer.yahoo.net/yui/license.txt">BSD</license>
+ <notes>
+YUI version 2.9.0
+ </notes>
+ <contents>
+  <dir baseinstalldir="/" name="/">
+   <dir name="www">
+    <dir name="animation">
+     <file name="animation-debug.js" role="data" />
+     <file name="animation-min.js" role="data" />
+     <file name="animation.js" role="data" />
+    </dir> <!-- //www/animation -->
+    <dir name="assets">
+     <dir name="skins">
+      <dir name="sam">
+       <file name="ajax-loader.gif" role="data" />
+       <file name="asc.gif" role="data" />
+       <file name="autocomplete.css" role="data" />
+       <file name="back-h.png" role="data" />
+       <file name="back-v.png" role="data" />
+       <file name="bar-h.png" role="data" />
+       <file name="bar-v.png" role="data" />
+       <file name="bg-h.gif" role="data" />
+       <file name="bg-v.gif" role="data" />
+       <file name="blankimage.png" role="data" />
+       <file name="button.css" role="data" />
+       <file name="calendar.css" role="data" />
+       <file name="carousel.css" role="data" />
+       <file name="check0.gif" role="data" />
+       <file name="check1.gif" role="data" />
+       <file name="check2.gif" role="data" />
+       <file name="colorpicker.css" role="data" />
+       <file name="container.css" role="data" />
+       <file name="datatable.css" role="data" />
+       <file name="desc.gif" role="data" />
+       <file name="dt-arrow-dn.png" role="data" />
+       <file name="dt-arrow-up.png" role="data" />
+       <file name="editor-knob.gif" role="data" />
+       <file name="editor-sprite-active.gif" role="data" />
+       <file name="editor-sprite.gif" role="data" />
+       <file name="editor.css" role="data" />
+       <file name="header_background.png" role="data" />
+       <file name="hue_bg.png" role="data" />
+       <file name="imagecropper.css" role="data" />
+       <file name="layout.css" role="data" />
+       <file name="layout_sprite.png" role="data" />
+       <file name="loading.gif" role="data" />
+       <file name="logger.css" role="data" />
+       <file name="menu-button-arrow-disabled.png" role="data" />
+       <file name="menu-button-arrow.png" role="data" />
+       <file name="menu.css" role="data" />
+       <file name="menubaritem_submenuindicator.png" role="data" />
+       <file name="menubaritem_submenuindicator_disabled.png" role="data" />
+       <file name="menuitem_checkbox.png" role="data" />
+       <file name="menuitem_checkbox_disabled.png" role="data" />
+       <file name="menuitem_submenuindicator.png" role="data" />
+       <file name="menuitem_submenuindicator_disabled.png" role="data" />
+       <file name="paginator.css" role="data" />
+       <file name="picker_mask.png" role="data" />
+       <file name="profilerviewer.css" role="data" />
+       <file name="progressbar.css" role="data" />
+       <file name="resize.css" role="data" />
+       <file name="simpleeditor.css" role="data" />
+       <file name="skin.css" role="data" />
+       <file name="slider.css" role="data" />
+       <file name="split-button-arrow-active.png" role="data" />
+       <file name="split-button-arrow-disabled.png" role="data" />
+       <file name="split-button-arrow-focus.png" role="data" />
+       <file name="split-button-arrow-hover.png" role="data" />
+       <file name="split-button-arrow.png" role="data" />
+       <file name="sprite.png" role="data" />
+       <file name="sprite.psd" role="data" />
+       <file name="tabview.css" role="data" />
+       <file name="treeview-loading.gif" role="data" />
+       <file name="treeview-sprite.gif" role="data" />
+       <file name="treeview.css" role="data" />
+       <file name="wait.gif" role="data" />
+       <file name="yuitest.css" role="data" />
+      </dir> <!-- //www/assets/skins/sam -->
+     </dir> <!-- //www/assets/skins -->
+    </dir> <!-- //www/assets -->
+    <dir name="autocomplete">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="autocomplete-skin.css" role="data" />
+        <file name="autocomplete.css" role="data" />
+       </dir> <!-- //www/autocomplete/assets/skins/sam -->
+      </dir> <!-- //www/autocomplete/assets/skins -->
+      <file name="autocomplete-core.css" role="data" />
+     </dir> <!-- //www/autocomplete/assets -->
+     <file name="autocomplete-debug.js" role="data" />
+     <file name="autocomplete-min.js" role="data" />
+     <file name="autocomplete.js" role="data" />
+    </dir> <!-- //www/autocomplete -->
+    <dir name="base">
+     <file name="base-min.css" role="data" />
+     <file name="base.css" role="data" />
+    </dir> <!-- //www/base -->
+    <dir name="button">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="button-skin.css" role="data" />
+        <file name="button.css" role="data" />
+        <file name="menu-button-arrow-disabled.png" role="data" />
+        <file name="menu-button-arrow.png" role="data" />
+        <file name="split-button-arrow-active.png" role="data" />
+        <file name="split-button-arrow-disabled.png" role="data" />
+        <file name="split-button-arrow-focus.png" role="data" />
+        <file name="split-button-arrow-hover.png" role="data" />
+        <file name="split-button-arrow.png" role="data" />
+       </dir> <!-- //www/button/assets/skins/sam -->
+      </dir> <!-- //www/button/assets/skins -->
+      <file name="button-core.css" role="data" />
+     </dir> <!-- //www/button/assets -->
+     <file name="button-debug.js" role="data" />
+     <file name="button-min.js" role="data" />
+     <file name="button.js" role="data" />
+    </dir> <!-- //www/button -->
+    <dir name="calendar">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="calendar-skin.css" role="data" />
+        <file name="calendar.css" role="data" />
+       </dir> <!-- //www/calendar/assets/skins/sam -->
+      </dir> <!-- //www/calendar/assets/skins -->
+      <file name="calendar-core.css" role="data" />
+      <file name="calendar.css" role="data" />
+      <file name="calgrad.png" role="data" />
+      <file name="callt.gif" role="data" />
+      <file name="calrt.gif" role="data" />
+      <file name="calx.gif" role="data" />
+     </dir> <!-- //www/calendar/assets -->
+     <file name="calendar-debug.js" role="data" />
+     <file name="calendar-min.js" role="data" />
+     <file name="calendar.js" role="data" />
+    </dir> <!-- //www/calendar -->
+    <dir name="carousel">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="ajax-loader.gif" role="data" />
+        <file name="carousel-skin.css" role="data" />
+        <file name="carousel.css" role="data" />
+       </dir> <!-- //www/carousel/assets/skins/sam -->
+      </dir> <!-- //www/carousel/assets/skins -->
+      <file name="ajax-loader.gif" role="data" />
+      <file name="carousel-core.css" role="data" />
+     </dir> <!-- //www/carousel/assets -->
+     <file name="carousel-debug.js" role="data" />
+     <file name="carousel-min.js" role="data" />
+     <file name="carousel.js" role="data" />
+    </dir> <!-- //www/carousel -->
+    <dir name="charts">
+     <dir name="assets">
+      <file name="charts.swf" role="data" />
+     </dir> <!-- //www/charts/assets -->
+     <file name="charts-debug.js" role="data" />
+     <file name="charts-min.js" role="data" />
+     <file name="charts.js" role="data" />
+    </dir> <!-- //www/charts -->
+    <dir name="colorpicker">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="colorpicker-skin.css" role="data" />
+        <file name="colorpicker.css" role="data" />
+        <file name="hue_bg.png" role="data" />
+        <file name="picker_mask.png" role="data" />
+       </dir> <!-- //www/colorpicker/assets/skins/sam -->
+      </dir> <!-- //www/colorpicker/assets/skins -->
+      <file name="colorpicker-core.css" role="data" />
+      <file name="colorpicker_core.css" role="data" />
+      <file name="hue_thumb.png" role="data" />
+      <file name="picker_mask.png" role="data" />
+      <file name="picker_thumb.png" role="data" />
+     </dir> <!-- //www/colorpicker/assets -->
+     <file name="colorpicker-debug.js" role="data" />
+     <file name="colorpicker-min.js" role="data" />
+     <file name="colorpicker.js" role="data" />
+    </dir> <!-- //www/colorpicker -->
+    <dir name="connection">
+     <file name="connection-debug.js" role="data" />
+     <file name="connection-min.js" role="data" />
+     <file name="connection.js" role="data" />
+     <file name="connection.swf" role="data" />
+     <file name="connection_core-debug.js" role="data" />
+     <file name="connection_core-min.js" role="data" />
+     <file name="connection_core.js" role="data" />
+    </dir> <!-- //www/connection -->
+    <dir name="container">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="container-skin.css" role="data" />
+        <file name="container.css" role="data" />
+       </dir> <!-- //www/container/assets/skins/sam -->
+      </dir> <!-- //www/container/assets/skins -->
+      <file name="alrt16_1.gif" role="data" />
+      <file name="blck16_1.gif" role="data" />
+      <file name="close12_1.gif" role="data" />
+      <file name="container-core.css" role="data" />
+      <file name="container.css" role="data" />
+      <file name="hlp16_1.gif" role="data" />
+      <file name="info16_1.gif" role="data" />
+      <file name="tip16_1.gif" role="data" />
+      <file name="warn16_1.gif" role="data" />
+     </dir> <!-- //www/container/assets -->
+     <file name="container-debug.js" role="data" />
+     <file name="container-min.js" role="data" />
+     <file name="container.js" role="data" />
+     <file name="container_core-debug.js" role="data" />
+     <file name="container_core-min.js" role="data" />
+     <file name="container_core.js" role="data" />
+    </dir> <!-- //www/container -->
+    <dir name="cookie">
+     <file name="cookie-debug.js" role="data" />
+     <file name="cookie-min.js" role="data" />
+     <file name="cookie.js" role="data" />
+    </dir> <!-- //www/cookie -->
+    <dir name="datasource">
+     <file name="datasource-debug.js" role="data" />
+     <file name="datasource-min.js" role="data" />
+     <file name="datasource.js" role="data" />
+    </dir> <!-- //www/datasource -->
+    <dir name="datatable">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="datatable-skin.css" role="data" />
+        <file name="datatable.css" role="data" />
+        <file name="dt-arrow-dn.png" role="data" />
+        <file name="dt-arrow-up.png" role="data" />
+       </dir> <!-- //www/datatable/assets/skins/sam -->
+      </dir> <!-- //www/datatable/assets/skins -->
+      <file name="datatable-core.css" role="data" />
+      <file name="datatable.css" role="data" />
+     </dir> <!-- //www/datatable/assets -->
+     <file name="datatable-debug.js" role="data" />
+     <file name="datatable-min.js" role="data" />
+     <file name="datatable.js" role="data" />
+    </dir> <!-- //www/datatable -->
+    <dir name="datemath">
+     <file name="datemath-debug.js" role="data" />
+     <file name="datemath-min.js" role="data" />
+     <file name="datemath.js" role="data" />
+    </dir> <!-- //www/datemath -->
+    <dir name="dom">
+     <file name="dom-debug.js" role="data" />
+     <file name="dom-min.js" role="data" />
+     <file name="dom.js" role="data" />
+    </dir> <!-- //www/dom -->
+    <dir name="dragdrop">
+     <file name="dragdrop-debug.js" role="data" />
+     <file name="dragdrop-min.js" role="data" />
+     <file name="dragdrop.js" role="data" />
+    </dir> <!-- //www/dragdrop -->
+    <dir name="editor">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="blankimage.png" role="data" />
+        <file name="editor-knob.gif" role="data" />
+        <file name="editor-skin.css" role="data" />
+        <file name="editor-sprite-active.gif" role="data" />
+        <file name="editor-sprite.gif" role="data" />
+        <file name="editor.css" role="data" />
+        <file name="simpleeditor-skin.css" role="data" />
+        <file name="simpleeditor.css" role="data" />
+       </dir> <!-- //www/editor/assets/skins/sam -->
+      </dir> <!-- //www/editor/assets/skins -->
+      <file name="editor-core.css" role="data" />
+      <file name="simpleeditor-core.css" role="data" />
+     </dir> <!-- //www/editor/assets -->
+     <file name="editor-debug.js" role="data" />
+     <file name="editor-min.js" role="data" />
+     <file name="editor.js" role="data" />
+     <file name="simpleeditor-debug.js" role="data" />
+     <file name="simpleeditor-min.js" role="data" />
+     <file name="simpleeditor.js" role="data" />
+    </dir> <!-- //www/editor -->
+    <dir name="element">
+     <file name="element-debug.js" role="data" />
+     <file name="element-min.js" role="data" />
+     <file name="element.js" role="data" />
+    </dir> <!-- //www/element -->
+    <dir name="element-delegate">
+     <file name="element-delegate-debug.js" role="data" />
+     <file name="element-delegate-min.js" role="data" />
+     <file name="element-delegate.js" role="data" />
+    </dir> <!-- //www/element-delegate -->
+    <dir name="event">
+     <file name="event-debug.js" role="data" />
+     <file name="event-min.js" role="data" />
+     <file name="event.js" role="data" />
+    </dir> <!-- //www/event -->
+    <dir name="event-delegate">
+     <file name="event-delegate-debug.js" role="data" />
+     <file name="event-delegate-min.js" role="data" />
+     <file name="event-delegate.js" role="data" />
+    </dir> <!-- //www/event-delegate -->
+    <dir name="event-mouseenter">
+     <file name="event-mouseenter-debug.js" role="data" />
+     <file name="event-mouseenter-min.js" role="data" />
+     <file name="event-mouseenter.js" role="data" />
+    </dir> <!-- //www/event-mouseenter -->
+    <dir name="event-simulate">
+     <file name="event-simulate-debug.js" role="data" />
+     <file name="event-simulate-min.js" role="data" />
+     <file name="event-simulate.js" role="data" />
+    </dir> <!-- //www/event-simulate -->
+    <dir name="fonts">
+     <file name="fonts-min.css" role="data" />
+     <file name="fonts.css" role="data" />
+    </dir> <!-- //www/fonts -->
+    <dir name="get">
+     <file name="get-debug.js" role="data" />
+     <file name="get-min.js" role="data" />
+     <file name="get.js" role="data" />
+    </dir> <!-- //www/get -->
+    <dir name="grids">
+     <file name="grids-min.css" role="data" />
+     <file name="grids.css" role="data" />
+    </dir> <!-- //www/grids -->
+    <dir name="history">
+     <dir name="assets">
+      <file name="blank.html" role="data" />
+     </dir> <!-- //www/history/assets -->
+     <file name="history-debug.js" role="data" />
+     <file name="history-min.js" role="data" />
+     <file name="history.js" role="data" />
+    </dir> <!-- //www/history -->
+    <dir name="imagecropper">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="imagecropper-skin.css" role="data" />
+        <file name="imagecropper.css" role="data" />
+       </dir> <!-- //www/imagecropper/assets/skins/sam -->
+      </dir> <!-- //www/imagecropper/assets/skins -->
+      <file name="imagecropper-core.css" role="data" />
+     </dir> <!-- //www/imagecropper/assets -->
+     <file name="imagecropper-debug.js" role="data" />
+     <file name="imagecropper-min.js" role="data" />
+     <file name="imagecropper.js" role="data" />
+    </dir> <!-- //www/imagecropper -->
+    <dir name="imageloader">
+     <file name="imageloader-debug.js" role="data" />
+     <file name="imageloader-min.js" role="data" />
+     <file name="imageloader.js" role="data" />
+    </dir> <!-- //www/imageloader -->
+    <dir name="json">
+     <file name="json-debug.js" role="data" />
+     <file name="json-min.js" role="data" />
+     <file name="json.js" role="data" />
+    </dir> <!-- //www/json -->
+    <dir name="layout">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="layout-skin.css" role="data" />
+        <file name="layout.css" role="data" />
+        <file name="layout_sprite.png" role="data" />
+       </dir> <!-- //www/layout/assets/skins/sam -->
+      </dir> <!-- //www/layout/assets/skins -->
+      <file name="layout-core.css" role="data" />
+     </dir> <!-- //www/layout/assets -->
+     <file name="layout-debug.js" role="data" />
+     <file name="layout-min.js" role="data" />
+     <file name="layout.js" role="data" />
+    </dir> <!-- //www/layout -->
+    <dir name="logger">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="logger-skin.css" role="data" />
+        <file name="logger.css" role="data" />
+       </dir> <!-- //www/logger/assets/skins/sam -->
+      </dir> <!-- //www/logger/assets/skins -->
+      <file name="logger-core.css" role="data" />
+      <file name="logger.css" role="data" />
+     </dir> <!-- //www/logger/assets -->
+     <file name="logger-debug.js" role="data" />
+     <file name="logger-min.js" role="data" />
+     <file name="logger.js" role="data" />
+    </dir> <!-- //www/logger -->
+    <dir name="menu">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="menu-skin.css" role="data" />
+        <file name="menu.css" role="data" />
+        <file name="menubaritem_submenuindicator.png" role="data" />
+        <file name="menubaritem_submenuindicator_disabled.png" role="data" />
+        <file name="menuitem_checkbox.png" role="data" />
+        <file name="menuitem_checkbox_disabled.png" role="data" />
+        <file name="menuitem_submenuindicator.png" role="data" />
+        <file name="menuitem_submenuindicator_disabled.png" role="data" />
+       </dir> <!-- //www/menu/assets/skins/sam -->
+      </dir> <!-- //www/menu/assets/skins -->
+      <file name="menu-core.css" role="data" />
+      <file name="menu.css" role="data" />
+      <file name="menubaritem_submenuindicator.png" role="data" />
+      <file name="menubaritem_submenuindicator_disabled.png" role="data" />
+      <file name="menubaritem_submenuindicator_selected.png" role="data" />
+      <file name="menuitem_checkbox.png" role="data" />
+      <file name="menuitem_checkbox_disabled.png" role="data" />
+      <file name="menuitem_checkbox_selected.png" role="data" />
+      <file name="menuitem_submenuindicator.png" role="data" />
+      <file name="menuitem_submenuindicator_disabled.png" role="data" />
+      <file name="menuitem_submenuindicator_selected.png" role="data" />
+      <file name="menu_down_arrow.png" role="data" />
+      <file name="menu_down_arrow_disabled.png" role="data" />
+      <file name="menu_up_arrow.png" role="data" />
+      <file name="menu_up_arrow_disabled.png" role="data" />
+     </dir> <!-- //www/menu/assets -->
+     <file name="menu-debug.js" role="data" />
+     <file name="menu-min.js" role="data" />
+     <file name="menu.js" role="data" />
+    </dir> <!-- //www/menu -->
+    <dir name="paginator">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="paginator-skin.css" role="data" />
+        <file name="paginator.css" role="data" />
+       </dir> <!-- //www/paginator/assets/skins/sam -->
+      </dir> <!-- //www/paginator/assets/skins -->
+      <file name="paginator-core.css" role="data" />
+     </dir> <!-- //www/paginator/assets -->
+     <file name="paginator-debug.js" role="data" />
+     <file name="paginator-min.js" role="data" />
+     <file name="paginator.js" role="data" />
+    </dir> <!-- //www/paginator -->
+    <dir name="profiler">
+     <file name="profiler-debug.js" role="data" />
+     <file name="profiler-min.js" role="data" />
+     <file name="profiler.js" role="data" />
+    </dir> <!-- //www/profiler -->
+    <dir name="profilerviewer">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="asc.gif" role="data" />
+        <file name="desc.gif" role="data" />
+        <file name="header_background.png" role="data" />
+        <file name="profilerviewer-skin.css" role="data" />
+        <file name="profilerviewer.css" role="data" />
+        <file name="wait.gif" role="data" />
+       </dir> <!-- //www/profilerviewer/assets/skins/sam -->
+      </dir> <!-- //www/profilerviewer/assets/skins -->
+      <file name="profilerviewer-core.css" role="data" />
+     </dir> <!-- //www/profilerviewer/assets -->
+     <file name="profilerviewer-debug.js" role="data" />
+     <file name="profilerviewer-min.js" role="data" />
+     <file name="profilerviewer.js" role="data" />
+    </dir> <!-- //www/profilerviewer -->
+    <dir name="progressbar">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="back-h.png" role="data" />
+        <file name="back-v.png" role="data" />
+        <file name="bar-h.png" role="data" />
+        <file name="bar-v.png" role="data" />
+        <file name="progressbar-skin.css" role="data" />
+        <file name="progressbar.css" role="data" />
+       </dir> <!-- //www/progressbar/assets/skins/sam -->
+      </dir> <!-- //www/progressbar/assets/skins -->
+      <file name="progressbar-core.css" role="data" />
+     </dir> <!-- //www/progressbar/assets -->
+     <file name="progressbar-debug.js" role="data" />
+     <file name="progressbar-min.js" role="data" />
+     <file name="progressbar.js" role="data" />
+    </dir> <!-- //www/progressbar -->
+    <dir name="reset">
+     <file name="reset-min.css" role="data" />
+     <file name="reset.css" role="data" />
+    </dir> <!-- //www/reset -->
+    <dir name="reset-fonts">
+     <file name="reset-fonts.css" role="data" />
+    </dir> <!-- //www/reset-fonts -->
+    <dir name="reset-fonts-grids">
+     <file name="reset-fonts-grids.css" role="data" />
+    </dir> <!-- //www/reset-fonts-grids -->
+    <dir name="resize">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="layout_sprite.png" role="data" />
+        <file name="resize-skin.css" role="data" />
+        <file name="resize.css" role="data" />
+       </dir> <!-- //www/resize/assets/skins/sam -->
+      </dir> <!-- //www/resize/assets/skins -->
+      <file name="resize-core.css" role="data" />
+     </dir> <!-- //www/resize/assets -->
+     <file name="resize-debug.js" role="data" />
+     <file name="resize-min.js" role="data" />
+     <file name="resize.js" role="data" />
+    </dir> <!-- //www/resize -->
+    <dir name="selector">
+     <file name="selector-debug.js" role="data" />
+     <file name="selector-min.js" role="data" />
+     <file name="selector.js" role="data" />
+    </dir> <!-- //www/selector -->
+    <dir name="slider">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="bg-h.gif" role="data" />
+        <file name="bg-v.gif" role="data" />
+        <file name="slider-skin.css" role="data" />
+        <file name="slider.css" role="data" />
+       </dir> <!-- //www/slider/assets/skins/sam -->
+      </dir> <!-- //www/slider/assets/skins -->
+      <file name="bg-fader.gif" role="data" />
+      <file name="bg-h.gif" role="data" />
+      <file name="bg-v-e.gif" role="data" />
+      <file name="bg-v.gif" role="data" />
+      <file name="left-thumb.png" role="data" />
+      <file name="right-thumb.png" role="data" />
+      <file name="slider-core.css" role="data" />
+      <file name="slider-skin.css" role="data" />
+      <file name="thumb-bar.gif" role="data" />
+      <file name="thumb-e.gif" role="data" />
+      <file name="thumb-fader.gif" role="data" />
+      <file name="thumb-n.gif" role="data" />
+      <file name="thumb-s.gif" role="data" />
+      <file name="thumb-w.gif" role="data" />
+     </dir> <!-- //www/slider/assets -->
+     <file name="slider-debug.js" role="data" />
+     <file name="slider-min.js" role="data" />
+     <file name="slider.js" role="data" />
+    </dir> <!-- //www/slider -->
+    <dir name="storage">
+     <file name="storage-debug.js" role="data" />
+     <file name="storage-min.js" role="data" />
+     <file name="storage.js" role="data" />
+    </dir> <!-- //www/storage -->
+    <dir name="stylesheet">
+     <file name="stylesheet-debug.js" role="data" />
+     <file name="stylesheet-min.js" role="data" />
+     <file name="stylesheet.js" role="data" />
+    </dir> <!-- //www/stylesheet -->
+    <dir name="swf">
+     <file name="swf-debug.js" role="data" />
+     <file name="swf-min.js" role="data" />
+     <file name="swf.js" role="data" />
+    </dir> <!-- //www/swf -->
+    <dir name="swfdetect">
+     <file name="swfdetect-debug.js" role="data" />
+     <file name="swfdetect-min.js" role="data" />
+     <file name="swfdetect.js" role="data" />
+    </dir> <!-- //www/swfdetect -->
+    <dir name="swfstore">
+     <file name="swf.js" role="data" />
+     <file name="swfstore-debug.js" role="data" />
+     <file name="swfstore-min.js" role="data" />
+     <file name="swfstore.js" role="data" />
+     <file name="swfstore.swf" role="data" />
+    </dir> <!-- //www/swfstore -->
+    <dir name="tabview">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="tabview-skin.css" role="data" />
+        <file name="tabview.css" role="data" />
+       </dir> <!-- //www/tabview/assets/skins/sam -->
+      </dir> <!-- //www/tabview/assets/skins -->
+      <file name="border_tabs.css" role="data" />
+      <file name="loading.gif" role="data" />
+      <file name="skin-sam.css" role="data" />
+      <file name="tabview-core.css" role="data" />
+      <file name="tabview.css" role="data" />
+     </dir> <!-- //www/tabview/assets -->
+     <file name="tabview-debug.js" role="data" />
+     <file name="tabview-min.js" role="data" />
+     <file name="tabview.js" role="data" />
+    </dir> <!-- //www/tabview -->
+    <dir name="treeview">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="check0.gif" role="data" />
+        <file name="check1.gif" role="data" />
+        <file name="check2.gif" role="data" />
+        <file name="loading.gif" role="data" />
+        <file name="treeview-loading.gif" role="data" />
+        <file name="treeview-skin.css" role="data" />
+        <file name="treeview-sprite.gif" role="data" />
+        <file name="treeview.css" role="data" />
+       </dir> <!-- //www/treeview/assets/skins/sam -->
+      </dir> <!-- //www/treeview/assets/skins -->
+      <file name="treeview-core.css" role="data" />
+     </dir> <!-- //www/treeview/assets -->
+     <file name="treeview-debug.js" role="data" />
+     <file name="treeview-min.js" role="data" />
+     <file name="treeview.js" role="data" />
+    </dir> <!-- //www/treeview -->
+    <dir name="uploader">
+     <dir name="assets">
+      <file name="uploader.swf" role="data" />
+     </dir> <!-- //www/uploader/assets -->
+     <file name="uploader-debug.js" role="data" />
+     <file name="uploader-min.js" role="data" />
+     <file name="uploader.js" role="data" />
+    </dir> <!-- //www/uploader -->
+    <dir name="utilities">
+     <file name="utilities.js" role="data" />
+    </dir> <!-- //www/utilities -->
+    <dir name="yahoo">
+     <file name="yahoo-debug.js" role="data" />
+     <file name="yahoo-min.js" role="data" />
+     <file name="yahoo.js" role="data" />
+    </dir> <!-- //www/yahoo -->
+    <dir name="yahoo-dom-event">
+     <file name="yahoo-dom-event.js" role="data" />
+    </dir> <!-- //www/yahoo-dom-event -->
+    <dir name="yuiloader">
+     <file name="yuiloader-debug.js" role="data" />
+     <file name="yuiloader-min.js" role="data" />
+     <file name="yuiloader.js" role="data" />
+    </dir> <!-- //www/yuiloader -->
+    <dir name="yuiloader-dom-event">
+     <file name="yuiloader-dom-event.js" role="data" />
+    </dir> <!-- //www/yuiloader-dom-event -->
+    <dir name="yuitest">
+     <dir name="assets">
+      <dir name="skins">
+       <dir name="sam">
+        <file name="yuitest-skin.css" role="data" />
+        <file name="yuitest.css" role="data" />
+       </dir> <!-- //www/yuitest/assets/skins/sam -->
+      </dir> <!-- //www/yuitest/assets/skins -->
+      <file name="testlogger.css" role="data" />
+      <file name="yuitest-core.css" role="data" />
+     </dir> <!-- //www/yuitest/assets -->
+     <file name="yuitest-debug.js" role="data" />
+     <file name="yuitest-min.js" role="data" />
+     <file name="yuitest.js" role="data" />
+     <file name="yuitest_core-debug.js" role="data" />
+     <file name="yuitest_core-min.js" role="data" />
+     <file name="yuitest_core.js" role="data" />
+    </dir> <!-- //www/yuitest -->
+   </dir> <!-- //www -->
+   <file name="ChangeLog" role="data" />
+   <file name="composer.json" role="data" />
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>5.1.5</min>
+   </php>
+   <pearinstaller>
+    <min>1.4.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>1.0.12</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <date>2016-01-17</date>
+   <license uri="http://developer.yahoo.net/yui/license.txt">BSD</license>
+   <notes>
+YUI version 2.9.0
+   </notes>
+  </release>
+ </changelog>
+</package>
