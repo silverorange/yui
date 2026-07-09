@@ -1,16 +1,18 @@
 {
   "name": "silverorange/yui",
   "description": "Custom packaged version of YUI2.",
-  "type": "library",
-  "keywords": [ "yui" ],
-  "homepage": "https://github.com/silverorange/yui",
   "license": "BSD-3-Clause",
+  "type": "library",
+  "keywords": [
+    "yui"
+  ],
   "authors": [
     {
       "name": "Michael Gauthier",
       "email": "mike@silverorange.com"
     }
   ],
+  "homepage": "https://github.com/silverorange/yui",
   "require": {
     "php": ">=5.2.1"
   }
